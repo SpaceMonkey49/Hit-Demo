@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Lo GK, Juhl D, Warkentin TE, Sigouin CS, Eichler P, Greinacher A. Evaluation of pretest clinical score (4 Ts) for the diagnosis of heparin-induced thrombocytopenia in two clinical settings. J Thromb Haemost 2006; 4: 759–65."
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:layout_gravity="top"
+            android:background="@drawable/reference_background"
+            android:padding="10sp"
+            android:layout_margin="12px" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Vatanparast R, Lantz S, Ward K, Crilley PA, Styler M. Evaluation of a pretest scoring system (4Ts) for the diagnosis of heparin-induced thrombocytopenia in a university hospital setting. Postgrad Med. 2012 Nov;124(6):36-42."
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:layout_gravity="top"
+            android:background="@drawable/reference_background"
+            android:padding="10sp"
+            android:layout_margin="12px" />
+    </LinearLayout>
+</FrameLayout>

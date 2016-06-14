@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7">
+    <TextView
+        android:id="@+id/TextViewResultTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:text="The 4T score of this patient is" />
+    <TextView
+        android:id="@+id/TextViewFinalScore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:text="0" />
+    <TextView
+        android:id="@+id/TextViewFinalScoreDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:text="This text will later explain what this score means and what you should do next. In the meantime, please refer to your defined protocol." />
+    <LinearLayout
+        android:id="@+id/LinLayBottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:weightSum="4"
+        android:gravity="center">
+        <Button
+            android:id="@+id/BtnRestart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Start over"
+            android:background="#990000"
+            android:textColor="#FFF"
+            android:layout_margin="4sp" />
+        <Button
+            android:id="@+id/BtnExit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Exit"
+            android:background="#990000"
+            android:textColor="#FFF"
+            android:layout_margin="4sp" />
+    </LinearLayout>
+</LinearLayout>
